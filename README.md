@@ -165,4 +165,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   - MySQL Password: root
 - Click "Install Now"
 - You can now browse to the osTicket URL where users would enter ticket to be addressed and the Staff Control Panel URL where you can login to view tickets and settings.
-- 
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
