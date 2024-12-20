@@ -145,7 +145,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <br />
 
-<h3>osTicket Setup</h3>
+<h3>osTicket Setup and Final Install</h3>
 
 - At the osTicket default site in the web browser:
   - Click continue
@@ -164,3 +164,5 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   - MySQL Username: root
   - MySQL Password: root
 - Click "Install Now"
+- You can now browse to the osTicket URL where users would enter ticket to be addressed and the Staff Control Panel URL where you can login to view tickets and settings.
+- 
