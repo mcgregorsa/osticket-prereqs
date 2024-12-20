@@ -111,3 +111,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   - Select the osTicket folder.
   - In the action panel click Broswe*:80.
     - The default site will open in the browser.
+      - Note that some extensionsion are not enabled.
+  - With the osTicket folder still selected, double click PHP Manager again.
+    - Select the following and enable in the Actions panel or by right clicking:
+      - php_imap.dll
+      - php_intl.dll
+      - php_opcache.dll
+- Refresh the web browser and not the changes to the extensions.
+- 
