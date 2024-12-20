@@ -23,6 +23,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   - Extensible web server.
 - Common Gateway Interface (CGI)
   - Standard allowing web servers to interface with general-purpose programming languages, allowing them to process web requests and generate dynamic web content.
+- PHP Manager for IIS
+  - Manages PHP installations on IIS servers.
 - PHP (Scripting Language)
 - Rewrite Module
   - Allows implementation of URLs that are easier for users to remember and easier for search engines to find.
@@ -47,7 +49,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h3>osTicket Files and enabling IIS snd CGI</h3>
 
-- Download osTicket File zip
+- Download osTicket Installation Files zip
   - https://drive.usercontent.google.com/download?id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD&export=download&authuser=0
 - In Windows Taskbar:
   - Search "control panel".
@@ -62,15 +64,50 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
 <br />
+
+<h3>Dependencies and Initial Setup</h3>
+
+- Note: The following files are found in the downloaded osTicket Installation Folder.
+  - Install PHPManagerForIIS.
+    - Click "Next" then "Agree".
+  - Install rewrite_amd61_en-US.
+- In the C Drive (C:):
+  - Create a folder name "PHP".
+  - Extract the php-7.3.8-nts-Win32-VC15-x86 zip file into the PHP folder.
+- Install VC_redist.x86
+- Install mysql-5.5.62-win32
+  - Choose "typical" setup.
+  - Lunch the configuration wizard.
+    - Click "Next"
+    - Choose "Standard"
+    - Click "Next" twice more
+    - At the security settings prompt enter a username and password.
+      - In this case "root" is used for both. Though bad practice, this is a lab tutorial and everything is wiped at the end.
+    - Click "Finish".
+- Register PHP from within IIS.
+  - Open IIS as an Administrator.
+  - Double click PHP Manager
+  - Click "Register new PHP version".
+  - Browse to the PHP folder created earlier (C:PHP).
+  - Select the file php-cgi.exe
+  - Click Okay.
+- Reload IIS
+  - In the Action panel click "Stop" then "Start"
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
 <br />
+
+<h3>Install osTicket</h3>
+
+- Extract the osTicket zip in the Installation Files folder.
+- Copy the "upload" folder to c:\inetpub\root
+- Rename the above folder to "osTicket".
+- Stop and Start the IIS server again.
+- Within IIS:
+  - Expand the Sites folder.
+  - Select the osTicket folder.
+  - In the action panel click Broswe*:80.
+    - The default site will open in the browser.
