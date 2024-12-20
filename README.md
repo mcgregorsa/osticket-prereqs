@@ -117,5 +117,50 @@ This tutorial outlines the prerequisites and installation of the open-source hel
       - php_imap.dll
       - php_intl.dll
       - php_opcache.dll
-- Refresh the web browser and not the changes to the extensions.
-- 
+- Refresh the web browser and note the changes to the extensions.
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+<h3>ost-config.php</h3>
+
+- Rename ost-config.php
+  - From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
+  - To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+- Assign Permissions: ost-config.php
+  - Right click the file and select "Properties".
+    - Go to the "Security" tab and click "Advanced".
+      - Click "Disable inheritance" to strip all permissions from the file.
+        - Click "Remove all inherited permissions from this object".
+      - Click "Add" in the Advanced Security Settings.
+        - Type "Everyone" in the object name field.
+          - Note: Though bad practice, this is a lab tutorial and everything is wiped at the end.
+        - Check "Full Control" for permissions.
+        - Click Okay and Apply.
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+<h3>osTicket Setup</h3>
+
+- At the osTicket default site in the web browser:
+  - Click continue
+  - Fill out the System Settings and Admin User form fields
+    - Note: the emails can be fictitious for this exercise and Admin can not be the username, but adminuser or some variation can be used.
+- Install HeidiSQL located in the osTicket Installion Files folder extracted earlier.
+  - Click all "Next" until you reach "Install".
+    - Ensure that the launch HeidiSQL box is checked.
+    - Click "Finish" then "Skip".
+  - Create a new session and fill in a username and password.
+  - Click "Open" (connects to the session) and right click the "unnamed" session.
+    - Create new>Database
+      - name it "osTicket". (no spaces or quotes)
+- Fill in the form fields for the Database Settings on the osTicket site in the browser:
+  - MySQL Database: osTicket
+  - MySQL Username: root
+  - MySQL Password: root
+- Click "Install Now"
