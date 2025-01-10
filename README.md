@@ -50,12 +50,31 @@ This tutorial outlines the prerequisites and installation of the open-source hel
  ### <h3>osTicket Files and enabling IIS snd CGI</h3>
 
 - Download [osTicket Installation Files zip](https://drive.usercontent.google.com/download?id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD&export=download&authuser=0)
+  - Extract the files into a folder on the desktop.
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
 - In Windows Taskbar:
   - Search "control panel".
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
 - In Contronl Panel:
   - Click Programs then "Turn Windows Features on or off".
   - Check IIS, expand the folder and check CGI.
   - Click Okay.
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
 - In the Web Browser:
   - Browse to 127.0.0.1
   - Confirm that the IIS page displays.
@@ -172,6 +191,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   - Click continue
   - Fill out the System Settings and Admin User form fields
     - Note: the emails can be fictitious for this exercise and Admin can not be the username, but adminuser or some variation can be used.
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
 - Install HeidiSQL located in the osTicket Installion Files folder extracted earlier.
   - Click all "Next" until you reach "Install".
     - Ensure that the launch HeidiSQL box is checked.
@@ -180,11 +205,23 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   - Click "Open" (connects to the session) and right click the "unnamed" session.
     - Create new>Database
       - name it "osTicket". (no spaces or quotes)
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
 - Fill in the form fields for the Database Settings on the osTicket site in the browser:
   - MySQL Database: osTicket
   - MySQL Username: root
   - MySQL Password: root
 - Click "Install Now"
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
 - You can now browse to the osTicket URL where users would enter ticket to be addressed and the Staff Control Panel URL where you can login to view tickets and settings.
 
 <p>
