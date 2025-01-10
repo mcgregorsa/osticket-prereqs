@@ -79,6 +79,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   - In the C Drive (C:):
   - Create a folder name "PHP".
   - Extract the php-7.3.8-nts-Win32-VC15-x86 zip file into the PHP folder.
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
 - Install VC_redist.x86
 - Install mysql-5.5.62-win32
   - Choose "typical" setup.
@@ -89,6 +94,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     - At the security settings prompt enter a username and password.
       - In this case "root" is used for both. Though bad practice, this is a lab tutorial and everything is wiped at the end.
     - Click "Finish".
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
 - Register PHP from within IIS.
   - Open IIS as an Administrator.
   - Double click PHP Manager
