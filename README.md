@@ -2,12 +2,12 @@
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
-<h1>osTicket - Prerequisites and Installation</h1>
+# <h1>osTicket - Prerequisites and Installation</h1>
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
 
 
-<h2>Environments and Technologies Used</h2>
+## <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
@@ -17,7 +17,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Windows 10</b> (21H2)
 
-<h2>List of Prerequisites</h2>
+## <h2>List of Prerequisites</h2>
 
 - Internet Information Services (IIS)
   - Extensible web server.
@@ -32,9 +32,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   - Provides necessary runtime libraries.
 - MySQL (Database)
 
-<h2>Installation Steps</h2>
+## <h2>Installation Steps</h2>
 
-<h3>Virtual Machine creation and Remote Connection</h3>
+### <h3>Virtual Machine creation and Remote Connection</h3>
 
 - Create a virtual machine (osticket-vm) with at least 2vcpus with default settings.
   - Choose a username and password.
@@ -47,7 +47,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <br />
 
-<h3>osTicket Files and enabling IIS snd CGI</h3>
+ ### <h3>osTicket Files and enabling IIS snd CGI</h3>
 
 - Download [osTicket Installation Files zip](https://drive.usercontent.google.com/download?id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD&export=download&authuser=0)
 - In Windows Taskbar:
@@ -65,7 +65,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <br />
 
-<h3>Dependencies and Initial Setup</h3>
+### <h3>Dependencies and Initial Setup</h3>
 
 - Note: The following files are found in the downloaded osTicket Installation Folder.
   - Install PHPManagerForIIS.
@@ -99,7 +99,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <br />
 
-<h3>Install osTicket</h3>
+### <h3>Install osTicket</h3>
 
 - Extract the osTicket zip in the Installation Files folder.
 - Copy the "upload" folder to c:\inetpub\root
@@ -123,7 +123,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <br />
 
-<h3>ost-config.php</h3>
+#### <h4>ost-config.php</h4>
 
 - Rename ost-config.php
   - From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
@@ -144,7 +144,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <br />
 
-<h3>osTicket Setup and Final Install</h3>
+### <h3>osTicket Setup and Final Install</h3>
 
 - At the osTicket default site in the web browser:
   - Click continue
