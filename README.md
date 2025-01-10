@@ -71,6 +71,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   - Install PHPManagerForIIS.
     - Click "Next" then "Agree".
   - Install rewrite_amd61_en-US.
+
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -79,6 +80,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   - In the C Drive (C:):
   - Create a folder name "PHP".
   - Extract the php-7.3.8-nts-Win32-VC15-x86 zip file into the PHP folder.
+
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -94,6 +96,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     - At the security settings prompt enter a username and password.
       - In this case "root" is used for both. Though bad practice, this is a lab tutorial and everything is wiped at the end.
     - Click "Finish".
+
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -120,6 +123,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Copy the "upload" folder to c:\inetpub\root
 - Rename the above folder to "osTicket".
 - Stop and Start the IIS server again.
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
 - Within IIS:
   - Expand the Sites folder.
   - Select the osTicket folder.
@@ -137,8 +146,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
-
-#### <h4>ost-config.php</h4>
 
 - Rename ost-config.php
   - From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
