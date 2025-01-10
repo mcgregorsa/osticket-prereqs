@@ -37,9 +37,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h3>Virtual Machine creation and Remote Connection</h3>
 
 - Create a virtual machine (osticket-vm) with at least 2vcpus with default settings.
-  - Choose a usename and password.
+  - Choose a username and password.
 - Open a Remote Desktop Connection to the vm.
-  - Paste the public IP into Remote Desktop and sign in with credentials.
+  - Paste the public IP into Remote Desktop and sign in with your credentials.
 - Note: All subsequent work takes place within the created virtual machine (osticket-vm).
 
 <p>
@@ -77,7 +77,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Install VC_redist.x86
 - Install mysql-5.5.62-win32
   - Choose "typical" setup.
-  - Lunch the configuration wizard.
+  - Launch the configuration wizard.
     - Click "Next"
     - Choose "Standard"
     - Click "Next" twice more
