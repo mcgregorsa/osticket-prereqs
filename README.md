@@ -49,8 +49,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h3>osTicket Files and enabling IIS snd CGI</h3>
 
-- Download osTicket Installation Files zip
-  - https://drive.usercontent.google.com/download?id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD&export=download&authuser=0
+- Download [osTicket Installation Files zip](https://drive.usercontent.google.com/download?id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD&export=download&authuser=0)
 - In Windows Taskbar:
   - Search "control panel".
 - In Contronl Panel:
