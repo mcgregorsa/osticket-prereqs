@@ -144,7 +144,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Stop and Start the IIS server again.
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/9376fcc2-e46b-4741-ad0d-6ba7c14a0f8d" height="80%" width="80%" alt="Upload Folder Copied and Renamed"/>
 </p>
 <br />
 
