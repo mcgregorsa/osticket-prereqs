@@ -43,7 +43,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Note: All subsequent work takes place within the created virtual machine (osticket-vm).
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/0f3b482c-f276-4a93-b565-b0774de1839a" height="80%" width=80% alt="Create VM and RDP"/>
 </p>
 <br />
 
