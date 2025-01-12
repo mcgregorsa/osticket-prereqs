@@ -207,7 +207,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
       - name it "osTicket". (no spaces or quotes)
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/c623ec5a-3716-4997-b8c3-3f850b046fe4" height="80%" width="80%" alt="HeidiSQL Install"/>
 </p>
 <br />
 
