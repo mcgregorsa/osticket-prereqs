@@ -162,7 +162,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Refresh the web browser and note the changes to the extensions.
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/4ae22acb-ccdf-48d9-b96a-4fa5decc343b" height="80%" width="80%" alt="Enable PHP Manager Extensions"/>
 </p>
 <br />
 
