@@ -132,7 +132,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   - In the Action panel click "Stop" then "Start"
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/17d56ff6-b342-48fb-9cbf-59cdd4e6db9d" height="80%" width="80%" alt="Register PHP in IIS"/>
 </p>
 <br />
 
