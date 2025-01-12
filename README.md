@@ -92,7 +92,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   - Install rewrite_amd61_en-US.
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/3e2f8d80-0c5c-4c93-9a2b-83e46677b394" height="80%" width="80%" alt="Install PHP Manager and Rewrite"/>
 </p>
 <br />
 
