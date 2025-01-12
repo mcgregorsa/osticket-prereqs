@@ -117,7 +117,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     - Click "Finish".
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/f10b8ff8-6a78-4fb7-8820-227349289592" height="80%" width="80%" alt="MySQl Installation"/>
 </p>
 <br />
 
