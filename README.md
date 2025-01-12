@@ -222,15 +222,20 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <br />
 
+<p>
+<img src="https://github.com/user-attachments/assets/b86bea1d-9ece-4525-b5b5-7367361d2639" height="80%" width="80%" alt="osTicket Installation Success"/>
+</p>
+<br />
+
 - You can now browse to the osTicket URL where users would enter ticket to be addressed and the Staff Control Panel URL where you can login to view tickets and settings.
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/41557116-efaf-4347-8be6-6783dae5d5a4" height="80%" width="80%" alt="osTicket User Login Page"/>
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/bf8814fe-baa9-48ba-8b42-58e97dc6df04" height="80%" width="80%" alt="osTicket Staff Login Page"/>
 </p>
 <br />
 
