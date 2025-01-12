@@ -101,7 +101,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   - Extract the php-7.3.8-nts-Win32-VC15-x86 zip file into the PHP folder.
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/181b27fa-069d-4104-a4f4-6c25487b902e" height="80%" width="80%" alt="Create PHP Folder and Extract PHP Zip File to it"/>
 </p>
 <br />
 
