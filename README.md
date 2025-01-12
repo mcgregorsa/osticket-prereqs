@@ -53,7 +53,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   - Extract the files into a folder on the desktop.
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/15229507-85cf-4e8c-8f33-41184cde4c75" height="80%" width="80%" alt="Download and Extract osTicket Files"/>
 </p>
 <br />
 
@@ -61,7 +61,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   - Search "control panel".
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/7e3f44a4-4184-4a14-b50e-e0166956deb5" height="80%" width="80%" alt="Windows Taskbar Control Panel Search"/>
 </p>
 <br />
 
@@ -71,7 +71,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   - Click Okay.
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/2282f15d-383c-4e1f-bb0e-bc1f6cb11a68" height="80%" width="80%" alt="Enable IIS and CGI in Control Panel"/>
 </p>
 <br />
 
