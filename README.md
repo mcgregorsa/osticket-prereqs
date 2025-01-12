@@ -80,7 +80,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   - Confirm that the IIS page displays.
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/230af652-aaf2-481f-817d-3b82e9aaf7b5" height="80%" width="80%" alt="Browse to Localhost and Confirm IIS Page"/>
 </p>
 <br />
 
