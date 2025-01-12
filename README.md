@@ -181,7 +181,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
         - Click Okay and Apply.
 
 <p>
-<img src="https://github.com/user-attachments/assets/e71dd138-1474-4e0d-b5ae-51615e423c25" height="80%" width="80%" alt="ost Include Folder Rename and ost-config Permissions"/>
+<img src="https://github.com/user-attachments/assets/e71dd138-1474-4e0d-b5ae-51615e423c25" height="80%" width="80%" alt="osTicket Include Folder Rename and ost-config Permissions"/>
 </p>
 <br />
 
@@ -193,7 +193,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     - Note: the emails can be fictitious for this exercise and Admin can not be the username, but adminuser or some variation can be used.
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/c8104888-3a4b-4c37-b5f2-0eb40fe38a4b" height="80%" width="80%" alt="osTicket Form Fields"/>
 </p>
 <br />
 
