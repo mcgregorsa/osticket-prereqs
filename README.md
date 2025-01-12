@@ -218,7 +218,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Click "Install Now"
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/6bb35543-294b-4283-8efb-8e94bc6d9144" height="80%" width="80%" alt="Database Settings Form Fields"/>
 </p>
 <br />
 
